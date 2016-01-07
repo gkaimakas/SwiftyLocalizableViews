@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SwiftyLocalizableViews
+
+  Created by George Kaimakas on 1/7/16.
+  Copyright © 2016 CocoaPods. All rights reserved.
+*/
+
+"localized_text" = "Some text in English";

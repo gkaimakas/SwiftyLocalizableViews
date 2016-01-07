@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13E4FAE81C3E4BB90006F974 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13E4FAE71C3E4BB90006F974 /* Localizable.strings */; };
 		4B27ACD5AB8ED9EB43FF43B2 /* Pods_SwiftyLocalizableViews_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5919488C88F3902639233684 /* Pods_SwiftyLocalizableViews_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13E4FAE71C3E4BB90006F974 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		20B99E0A468EDF77D87878DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44D4A03430DE61E1B9FAC5A8 /* Pods-SwiftyLocalizableViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLocalizableViews_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyLocalizableViews_Example/Pods-SwiftyLocalizableViews_Example.release.xcconfig"; sourceTree = "<group>"; };
 		454E704311C941A1C7C3A78E /* Pods_SwiftyLocalizableViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLocalizableViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				13E4FAE71C3E4BB90006F974 /* Localizable.strings */,
 			);
 			name = "Example for SwiftyLocalizableViews";
 			path = SwiftyLocalizableViews;
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				13E4FAE81C3E4BB90006F974 /* Localizable.strings in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

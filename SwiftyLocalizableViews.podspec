@@ -9,21 +9,15 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftyLocalizableViews"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftyLocalizableViews."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "A collection of localizable views from within interface builder"
   s.description      = <<-DESC
+						A collection of localizable views from within interface builder that aims to remove boilerpate code aimed at localization requirements
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftyLocalizableViews"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/gkaimakas/SwiftyLocalizableViews"
   s.license          = 'MIT'
   s.author           = { "George Kaimakas" => "gkaimakas@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftyLocalizableViews.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/gkaimakas/SwiftyLocalizableViews.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
@@ -33,8 +27,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'SwiftyLocalizableViews' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
