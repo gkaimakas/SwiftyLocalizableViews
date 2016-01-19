@@ -11,12 +11,12 @@ import UIKit
 
 @IBDesignable
 public class LocalizableTextView: UITextView {
-    @IBInspectable public var localizedTitle: String {
+    @IBInspectable public var localizedText: String {
         set {
             text = newValue.localized
         }
         get {
-            return self.localizedTitle
+            return self.localizedText
         }
     }
 }
