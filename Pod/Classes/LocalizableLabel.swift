@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 @IBDesignable
-public class LocalizableLabel: UILabel {
-	@IBInspectable public var localizedText: String? {
+open class LocalizableLabel: UILabel {
+	@IBInspectable open var localizedText: String? {
 		set {
 			self.text = newValue?.localized
 		}

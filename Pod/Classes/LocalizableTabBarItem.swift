@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 @IBDesignable
-public class LocalizableTabBarItem: UITabBarItem {
-	@IBInspectable public var localizedTitle: String {
+open class LocalizableTabBarItem: UITabBarItem {
+	@IBInspectable open var localizedTitle: String {
 		set {
 			title = newValue.localized
 		}

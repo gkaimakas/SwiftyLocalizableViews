@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 @IBDesignable
-public class LocalizableButton: UIButton {
+open class LocalizableButton: UIButton {
 
-	@IBInspectable public var localizedDisabledTitle: String {
+	@IBInspectable open var localizedDisabledTitle: String {
 		set {
-			setTitle(newValue.localized, forState: .Disabled)
+			setTitle(newValue.localized, for: .disabled)
 		}
 		get {
 			return self.localizedDisabledTitle
@@ -22,10 +22,10 @@ public class LocalizableButton: UIButton {
 	}
 
 
-	@IBInspectable public var localizedFocusedTitle: String {
+	@IBInspectable open var localizedFocusedTitle: String {
 		set {
 			if #available(iOS 9.0, *) {
-				setTitle(newValue.localized, forState: .Focused)
+				setTitle(newValue.localized, for: .focused)
 			} else {
 				// Fallback on earlier versions
 			}
@@ -35,9 +35,9 @@ public class LocalizableButton: UIButton {
 		}
 	}
 
-	@IBInspectable public var localizedHighlightedTitle: String {
+	@IBInspectable open var localizedHighlightedTitle: String {
 		set {
-			setTitle(newValue.localized, forState: .Highlighted)
+			setTitle(newValue.localized, for: .highlighted)
 		}
 		get {
 			return self.localizedHighlightedTitle
@@ -45,27 +45,27 @@ public class LocalizableButton: UIButton {
 	}
 
 
-	@IBInspectable public var localizedReservedTitle: String {
+	@IBInspectable open var localizedReservedTitle: String {
 		set {
-			setTitle(newValue.localized, forState: .Reserved)
+			setTitle(newValue.localized, for: .reserved)
 		}
 		get {
 			return self.localizedReservedTitle
 		}
 	}
 
-	@IBInspectable public var localizedNormalTitle: String {
+	@IBInspectable open var localizedNormalTitle: String {
 		set {
-			self.setTitle(newValue.localized, forState: .Normal)
+			self.setTitle(newValue.localized, for: UIControlState())
 		}
 		get {
 			return self.localizedNormalTitle
 		}
 	}
 
-	@IBInspectable public var localizedSelectedTitle: String {
+	@IBInspectable open var localizedSelectedTitle: String {
 		set {
-			setTitle(newValue.localized, forState: .Selected)
+			setTitle(newValue.localized, for: .selected)
 		}
 		get {
 			return self.localizedSelectedTitle
